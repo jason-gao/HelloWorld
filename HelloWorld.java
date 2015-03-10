@@ -1,26 +1,25 @@
-public class Hello{
+public class HelloWorld{
 	
+	//å±æ€§
 	private Integer a;
 	
-	// ¹¹Ôìº¯Êı
-	public Hello(){
+	//æ„é€ å‡½æ•°
+	public HelloWorld(){
 		this.a = 10;
 		System.out.println("Hello Construct...");
 	}
-	
-	//³ÉÔ±º¯Êı
+	//æˆå‘˜æ–¹æ³•
 	public void test(){
 		System.out.println("Hello test");
 	}
-	
-	//´òÓ¡³ÉÔ±±äÁ¿
+	//æ‰“å°æˆå‘˜å˜é‡
 	public void printValue(){
 		System.out.println(this.a);
 	}
-	
+	//ä¸»å‡½æ•°
 	public static void main(String[] args){
 		System.out.println("Hello!!");
-		Hello h = new Hello();
+		HelloWorld h = new HelloWorld();
 		h.test();
 		h.printValue();
 	}
